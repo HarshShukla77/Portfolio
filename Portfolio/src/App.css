@@ -1,0 +1,31 @@
+
+@import "tailwindcss";
+
+
+
+  
+ 
+#sticky-card-1 {
+    --index: 1;
+  }
+  
+  #sticky-card-2 {
+    --index: 2;
+  }
+  
+  #sticky-card-3 {
+    --index: 3;
+  }
+  
+  #sticky-card-4 {
+    --index: 4;
+  }
+
+  
+ 
+
+  
+
+  
+ 
+  
