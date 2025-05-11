@@ -4,8 +4,8 @@
   "description": "Portfolio project",
   "main": "backend/server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "dev": "nodemon backend/server.js"
+    "start": "node backend/Server.js",
+    "dev": "nodemon backend/Server.js"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.4",
