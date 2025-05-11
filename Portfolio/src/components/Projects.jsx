@@ -17,7 +17,7 @@ const Projects = () => {
 
 
      <div>
-         <div className='flex flex-col gap-6 relative overflow-hidden '>
+         <div className='flex flex-col gap-6 relative  '>
           {
             projectsData.map((project,index)=>(
               <div  id={`sticky-card-${index + 1}`}   className="sticky-card w-full mx-auto max-w-2xl sticky"
