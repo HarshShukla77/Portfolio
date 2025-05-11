@@ -4,9 +4,10 @@
   "description": "Portfolio project",
   "main": "backend/server.js",
   "scripts": {
-    "start": "node backend/Server.js",
-    "dev": "nodemon backend/Server.js"
-  },
+  "build": "cd Portfolio && npm install && npm run build",
+  "start": "npm run build && node backend/Server.js",
+  "dev": "nodemon backend/Server.js"
+},
   "dependencies": {
     "@tailwindcss/vite": "^4.1.4",
     "colors": "^1.4.0",
